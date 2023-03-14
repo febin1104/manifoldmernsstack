@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.inner-div1{
+    background-color: red;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-div2{
+    background-color: green;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    height: 100px;
+    display: flex;
+}
+.contents{
+    height: 500px;
+    display: flex;
+}
+.page_contents{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+}
+.sidebar{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgreen;
+}
+.menu{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+.section{
+    height: 150px;
+    display: flex;
+}
+.section1, .section2, .section3{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    background-color: blue;
+}
+.section2{
+    background-color: brown;
+}
+.section3{
+    background-color: pink;
+}
+.footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+}

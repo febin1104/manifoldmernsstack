@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(242, 240, 242);
+    height: 100vh;
+}
+.parent{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-inline: 5px;
+    padding: 15px;
+    padding-inline: 10px;
+}
+.image{
+    width: 85%;
+    margin-inline: auto;
+    margin-bottom: 15px;
+}
+.heading{
+    width: 85%;
+    margin-inline: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.link{
+    width: 85%;
+    margin-top: 0;
+    margin-inline: auto;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}

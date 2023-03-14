@@ -1,0 +1,25 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.box1{
+
+    color:red;
+    background-color: green;
+    height: 50px;
+    width: 200px;
+    border: 10px solid black;
+    padding-top: 5px;
+}
+.box2{
+    color:blue;
+    background-color: yellow;
+    height: 50px;
+    width: 200px;
+    border: 10px solid black;
+    padding-top: 5px;
+}
+div {
+    text-align: center;
+  }
